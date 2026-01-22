@@ -108,17 +108,6 @@ interface g0/0
  standby 1 ip 192.168.20.1
  standby 1 priority 110
  standby 1 preempt
-```
-
----
-
-## 🔐 Security Implementation
-
-* Standard ACLs for basic traffic control
-* Port Security on access switches
-* Separation of user and server networks
-
----
 
 ## 🧪 Testing & Verification
 
@@ -127,8 +116,6 @@ interface g0/0
 * End-to-end connectivity tests (ping, traceroute)
 * HSRP failover verification
 * OSPF neighbor adjacency verification
-
----
 
 ## 🛠 Tools Used
 
